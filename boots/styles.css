@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+  background-color: #000;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+.hero {
+  background-image: url("https://picsum.photos/id/1039/1600/900");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.parallax {
+  background-image: url("https://picsum.photos/id/1018/1600/900");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax2 {
+  background-image: url("https://picsum.photos/id/1041/1600/900");
+}
+
+.parallax3 {
+  background-image: url("https://picsum.photos/id/1056/1600/900");
+}
+
+.parallax4 {
+  background-image: url("https://picsum.photos/id/1067/1600/900");
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+section {
+  padding-top: 100px;
+}
+
